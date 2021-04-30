@@ -16,7 +16,6 @@ echo .
 apt install figlet toilet python curl ruby -y
 apt install python3-pip
 gem install lolcat
-cd /sdcard/DCIM && mkdir AnonPics
 pip install stegano
 echo This Tool Is Created By HACK3RY2J
 echo This Script Is Created By Panda Hackers HACK3RY2J >update.pandahackers
