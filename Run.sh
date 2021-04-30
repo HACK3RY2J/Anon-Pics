@@ -57,7 +57,7 @@ elif [ $ch -eq 2 ];then
 clear
 echo -e "\e[1;32m"
 echo 'Reveal Text from Image'> call.xxx
-python3 Run.py Reveal
+python3 Run.py
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 3 ];then
