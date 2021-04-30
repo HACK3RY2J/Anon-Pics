@@ -50,8 +50,7 @@ pkg install git
 pkg install python
 git clone https://github.com/HACK3RY2J/Anon-Pics.git
 cd Anon-Pics
-python setup.py 
-python Run.py
+bash Run.sh
 ```
 
 ### > For Linux:
