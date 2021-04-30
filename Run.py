@@ -12,7 +12,12 @@ new_img = str(dt.year) + str(dt.strftime("%m")) + str(dt.day) + "_" + str(dt.hou
 
 
 
+
+
+
 def Intro():
+	input('Before We can Conyinue\nThere is Ad\n--- Click Enter and Subscribe to The Channel To Continue')
+	os.system('termux-open-url https://youtu.be/TV_z3ljFaLY')
 	print("What do you want to do:\n1.Hide A Mesage\n2.Decode A Hidden Mesage.")
 	while True:
 		xi = str(input("Enter Your Choice >>>"))
@@ -23,7 +28,7 @@ def Intro():
 			reveal()
 			break
 		else:
-			print("No Input Detected")
+			print("No Input  or Wrong Input Detected")
 			continue
 
 
